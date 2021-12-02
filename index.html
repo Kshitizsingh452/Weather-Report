@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather-App</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header id="head">
-        <input type="text" placeholder="Search here...." >
-    </header>
+    <div class="container">
+        <div class="search">
+   <input type="text" name="" class="input-box" id="input-box" placeholder="Search ...">
+        </div>
+        <div class="details">
+           <div class="location">
+               <div class="city">
+                 Raipur,In
+               </div>
+               <div class="date">2 December (Thursday) ,2021</div>
+           </div>
+           <div class="weather-status">
+               <div class="temp">18°C</div>
+               <div class="min-max">13°C(min)/36°C(max)</div>
+               <div class="weather">Clear</div>
+               <div class="img"></div>
+           </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
