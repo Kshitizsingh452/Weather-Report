@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather-App</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="search">
-   <input type="text" name="" class="input-box" id="input-box" placeholder="Search ...">
+      <form class="search" id="search">
+        <input
+          type="search"
+          name=""
+          class="input-box"
+          id="input-box"
+          placeholder="Search ..."
+        />
+      </form>
+      <div class="details">
+        <div class="location">
+          <div class="city" id="city">Raipur,In</div>
+          <div class="date" id="date">2 December (Thursday) ,2021</div>
         </div>
-        <div class="details">
-           <div class="location">
-               <div class="city" id="city">
-                 Raipur,In
-               </div>
-               <div class="date" id="date">2 December (Thursday) ,2021</div>
-           </div>
-           <div class="weather-status">
-               <div class="temp" id="temp">18°C</div>
-               <div class="min-max" id="min-max">13°C(min)/36°C(max)</div>
-               <div class="weather" id="weather">Clear</div>
-               <div class="img" id="img"></div>
-           </div>
+        <div class="weather-status">
+          <div class="temp" id="temp">18°C</div>
+          <div class="min-max" id="min-max">13°C(min)/36°C(max)</div>
+          <div class="weather" id="weather">Clear</div>
+          <div class="img" id="img"></div>
         </div>
+      </div>
     </div>
-
-
-
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
